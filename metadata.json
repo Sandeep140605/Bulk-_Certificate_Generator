@@ -1,0 +1,6 @@
+{
+  "name": "CertiFlow - Bulk Certificate Generation API & Studio",
+  "description": "Production-grade backend API and interactive studio for high-throughput bulk certificate generation, real-time job tracking, verification, and failure resilience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

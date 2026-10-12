@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-serif-cert {
+    font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+  }
+  
+  .font-script-cert {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+  }
+
+  .font-mono-cert {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-certificate-container, #printable-certificate-container * {
+    visibility: visible;
+  }
+  #printable-certificate-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+}
